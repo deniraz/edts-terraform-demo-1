@@ -42,9 +42,8 @@ regardless of file order.
 DEMO STEPS
 
 STEP 1 — Clone the Repository
-git clone https://github.com/deniraz/edts-terraform-demo-1.git
-cd <REPO_FOLDER>
-
+`git clone https://github.com/deniraz/edts-terraform-demo-1.git`
+`cd <REPO_FOLDER>`
 
 STEP 2 — Initialize Terraform
 terraform init
