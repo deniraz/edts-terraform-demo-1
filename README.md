@@ -1,4 +1,4 @@
-Terraform Demo 1 — Init, Validate, Plan (Participant Guide)
+# Terraform Demo 1 - Init, Validate, Plan (Participant Guide)
 
 SESSION GOAL
 This demo focuses on understanding the Terraform workflow, not on creating real cloud resources.
@@ -41,11 +41,11 @@ regardless of file order.
 
 DEMO STEPS
 
-STEP 1 — Clone the Repository
+STEP 1 - Clone the Repository
 `git clone https://github.com/deniraz/edts-terraform-demo-1.git`
 `cd <REPO_FOLDER>`
 
-STEP 2 — Initialize Terraform
+STEP 2 - Initialize Terraform
 terraform init
 
 What this does:
@@ -54,7 +54,7 @@ What this does:
 - DOES NOT create any cloud resources
 
 
-STEP 3 — Validate the Configuration
+STEP 3 - Validate the Configuration
 terraform validate
 
 What Terraform checks:
@@ -65,7 +65,7 @@ What Terraform checks:
 terraform validate does NOT interact with AWS.
 
 
-STEP 4 — Preview Changes with Terraform Plan
+STEP 4 - Preview Changes with Terraform Plan
 terraform plan
 
 What you will see:
